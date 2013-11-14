@@ -20,14 +20,14 @@
 		BCD710091834ABC20071AE5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD70FE81834ABC20071AE5D /* UIKit.framework */; };
 		BCD710111834ABC20071AE5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCD7100F1834ABC20071AE5D /* InfoPlist.strings */; };
 		BCD710131834ABC20071AE5D /* faye_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD710121834ABC20071AE5D /* faye_iosTests.m */; };
-		BCF8491F1834B53E00B5B5DC /* FayeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF849161834B53E00B5B5DC /* FayeClient.m */; };
-		BCF849201834B53E00B5B5DC /* FayeMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF849181834B53E00B5B5DC /* FayeMessage.m */; };
-		BCF849211834B53E00B5B5DC /* NSObject+PropertySupport.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF8491A1834B53E00B5B5DC /* NSObject+PropertySupport.m */; };
-		BCF849221834B53E00B5B5DC /* NSObject+Serialize.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF8491C1834B53E00B5B5DC /* NSObject+Serialize.m */; };
-		BCF849231834B53E00B5B5DC /* NSString+InflectionSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF8491E1834B53E00B5B5DC /* NSString+InflectionSupport.m */; };
 		BCF8499B1834BA8E00B5B5DC /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF8499A1834BA8E00B5B5DC /* libicucore.dylib */; };
 		BCF8499D1834BA9D00B5B5DC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF8499C1834BA9D00B5B5DC /* CFNetwork.framework */; };
 		BCF8499F1834BAAC00B5B5DC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF8499E1834BAAC00B5B5DC /* Security.framework */; };
+		BCF849BE183521F900B5B5DC /* FayeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF849B5183521F900B5B5DC /* FayeClient.m */; };
+		BCF849BF183521F900B5B5DC /* FayeMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF849B7183521F900B5B5DC /* FayeMessage.m */; };
+		BCF849C0183521F900B5B5DC /* NSObject+PropertySupport.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF849B9183521F900B5B5DC /* NSObject+PropertySupport.m */; };
+		BCF849C1183521F900B5B5DC /* NSObject+Serialize.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF849BB183521F900B5B5DC /* NSObject+Serialize.m */; };
+		BCF849C2183521F900B5B5DC /* NSString+InflectionSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF849BD183521F900B5B5DC /* NSString+InflectionSupport.m */; };
 		F48C131912C2434CA7DDCA6E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48141660242F4D0FA2561BAD /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -61,20 +61,20 @@
 		BCD7100E1834ABC20071AE5D /* faye-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "faye-iosTests-Info.plist"; sourceTree = "<group>"; };
 		BCD710101834ABC20071AE5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BCD710121834ABC20071AE5D /* faye_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = faye_iosTests.m; sourceTree = "<group>"; };
-		BCF849151834B53E00B5B5DC /* FayeClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FayeClient.h; path = ../../../../Downloads/FayeClient/Library/FayeClient.h; sourceTree = "<group>"; };
-		BCF849161834B53E00B5B5DC /* FayeClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FayeClient.m; path = ../../../../Downloads/FayeClient/Library/FayeClient.m; sourceTree = "<group>"; };
-		BCF849171834B53E00B5B5DC /* FayeMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FayeMessage.h; path = ../../../../Downloads/FayeClient/Library/FayeMessage.h; sourceTree = "<group>"; };
-		BCF849181834B53E00B5B5DC /* FayeMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FayeMessage.m; path = ../../../../Downloads/FayeClient/Library/FayeMessage.m; sourceTree = "<group>"; };
-		BCF849191834B53E00B5B5DC /* NSObject+PropertySupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+PropertySupport.h"; path = "../../../../Downloads/FayeClient/Library/NSObject+PropertySupport.h"; sourceTree = "<group>"; };
-		BCF8491A1834B53E00B5B5DC /* NSObject+PropertySupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PropertySupport.m"; path = "../../../../Downloads/FayeClient/Library/NSObject+PropertySupport.m"; sourceTree = "<group>"; };
-		BCF8491B1834B53E00B5B5DC /* NSObject+Serialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Serialize.h"; path = "../../../../Downloads/FayeClient/Library/NSObject+Serialize.h"; sourceTree = "<group>"; };
-		BCF8491C1834B53E00B5B5DC /* NSObject+Serialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Serialize.m"; path = "../../../../Downloads/FayeClient/Library/NSObject+Serialize.m"; sourceTree = "<group>"; };
-		BCF8491D1834B53E00B5B5DC /* NSString+InflectionSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+InflectionSupport.h"; path = "../../../../Downloads/FayeClient/Library/NSString+InflectionSupport.h"; sourceTree = "<group>"; };
-		BCF8491E1834B53E00B5B5DC /* NSString+InflectionSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+InflectionSupport.m"; path = "../../../../Downloads/FayeClient/Library/NSString+InflectionSupport.m"; sourceTree = "<group>"; };
 		BCF8499A1834BA8E00B5B5DC /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		BCF8499C1834BA9D00B5B5DC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		BCF8499E1834BAAC00B5B5DC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BCF849A01834BD9B00B5B5DC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BCF849B4183521F900B5B5DC /* FayeClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FayeClient.h; sourceTree = "<group>"; };
+		BCF849B5183521F900B5B5DC /* FayeClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FayeClient.m; sourceTree = "<group>"; };
+		BCF849B6183521F900B5B5DC /* FayeMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FayeMessage.h; sourceTree = "<group>"; };
+		BCF849B7183521F900B5B5DC /* FayeMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FayeMessage.m; sourceTree = "<group>"; };
+		BCF849B8183521F900B5B5DC /* NSObject+PropertySupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PropertySupport.h"; sourceTree = "<group>"; };
+		BCF849B9183521F900B5B5DC /* NSObject+PropertySupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PropertySupport.m"; sourceTree = "<group>"; };
+		BCF849BA183521F900B5B5DC /* NSObject+Serialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Serialize.h"; sourceTree = "<group>"; };
+		BCF849BB183521F900B5B5DC /* NSObject+Serialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Serialize.m"; sourceTree = "<group>"; };
+		BCF849BC183521F900B5B5DC /* NSString+InflectionSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+InflectionSupport.h"; sourceTree = "<group>"; };
+		BCF849BD183521F900B5B5DC /* NSString+InflectionSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+InflectionSupport.m"; sourceTree = "<group>"; };
 		D34CF6052C5A4D1297D3785C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,7 +109,7 @@
 		BCD70FD81834ABC20071AE5D = {
 			isa = PBXGroup;
 			children = (
-				BCF849141834B52500B5B5DC /* fayeClient */,
+				BCF849B3183521F900B5B5DC /* fayeClient */,
 				BCD70FEA1834ABC20071AE5D /* faye-ios */,
 				BCD7100C1834ABC20071AE5D /* faye-iosTests */,
 				BCD70FE31834ABC20071AE5D /* Frameworks */,
@@ -185,21 +185,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BCF849141834B52500B5B5DC /* fayeClient */ = {
+		BCF849B3183521F900B5B5DC /* fayeClient */ = {
 			isa = PBXGroup;
 			children = (
-				BCF849151834B53E00B5B5DC /* FayeClient.h */,
-				BCF849161834B53E00B5B5DC /* FayeClient.m */,
-				BCF849171834B53E00B5B5DC /* FayeMessage.h */,
-				BCF849181834B53E00B5B5DC /* FayeMessage.m */,
-				BCF849191834B53E00B5B5DC /* NSObject+PropertySupport.h */,
-				BCF8491A1834B53E00B5B5DC /* NSObject+PropertySupport.m */,
-				BCF8491B1834B53E00B5B5DC /* NSObject+Serialize.h */,
-				BCF8491C1834B53E00B5B5DC /* NSObject+Serialize.m */,
-				BCF8491D1834B53E00B5B5DC /* NSString+InflectionSupport.h */,
-				BCF8491E1834B53E00B5B5DC /* NSString+InflectionSupport.m */,
+				BCF849B4183521F900B5B5DC /* FayeClient.h */,
+				BCF849B5183521F900B5B5DC /* FayeClient.m */,
+				BCF849B6183521F900B5B5DC /* FayeMessage.h */,
+				BCF849B7183521F900B5B5DC /* FayeMessage.m */,
+				BCF849B8183521F900B5B5DC /* NSObject+PropertySupport.h */,
+				BCF849B9183521F900B5B5DC /* NSObject+PropertySupport.m */,
+				BCF849BA183521F900B5B5DC /* NSObject+Serialize.h */,
+				BCF849BB183521F900B5B5DC /* NSObject+Serialize.m */,
+				BCF849BC183521F900B5B5DC /* NSString+InflectionSupport.h */,
+				BCF849BD183521F900B5B5DC /* NSString+InflectionSupport.m */,
 			);
-			name = fayeClient;
+			path = fayeClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,13 +334,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCD70FFE1834ABC20071AE5D /* ViewController.m in Sources */,
-				BCF849201834B53E00B5B5DC /* FayeMessage.m in Sources */,
-				BCF849231834B53E00B5B5DC /* NSString+InflectionSupport.m in Sources */,
-				BCF849211834B53E00B5B5DC /* NSObject+PropertySupport.m in Sources */,
+				BCF849BF183521F900B5B5DC /* FayeMessage.m in Sources */,
+				BCF849C2183521F900B5B5DC /* NSString+InflectionSupport.m in Sources */,
+				BCF849C0183521F900B5B5DC /* NSObject+PropertySupport.m in Sources */,
 				BCD70FF51834ABC20071AE5D /* AppDelegate.m in Sources */,
-				BCF849221834B53E00B5B5DC /* NSObject+Serialize.m in Sources */,
+				BCF849C1183521F900B5B5DC /* NSObject+Serialize.m in Sources */,
 				BCD70FF11834ABC20071AE5D /* main.m in Sources */,
-				BCF8491F1834B53E00B5B5DC /* FayeClient.m in Sources */,
+				BCF849BE183521F900B5B5DC /* FayeClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
