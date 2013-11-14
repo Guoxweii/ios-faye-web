@@ -1,10 +1,13 @@
 PODS:
+  - JSONKit (1.5pre)
   - SocketRocket (0.3.1-beta2)
 
 DEPENDENCIES:
+  - JSONKit
   - SocketRocket
 
 SPEC CHECKSUMS:
+  JSONKit: 409734ab3407fce90ef7eaa95d7168f38d9a6601
   SocketRocket: 7ac946bcce46287a791dfff3c1f8daa692821dae
 
 COCOAPODS: 0.28.0

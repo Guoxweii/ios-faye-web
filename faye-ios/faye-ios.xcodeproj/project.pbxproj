@@ -28,7 +28,6 @@
 		BCF8499B1834BA8E00B5B5DC /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF8499A1834BA8E00B5B5DC /* libicucore.dylib */; };
 		BCF8499D1834BA9D00B5B5DC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF8499C1834BA9D00B5B5DC /* CFNetwork.framework */; };
 		BCF8499F1834BAAC00B5B5DC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF8499E1834BAAC00B5B5DC /* Security.framework */; };
-		BCF849A11834BD9B00B5B5DC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF849A01834BD9B00B5B5DC /* SenTestingKit.framework */; };
 		F48C131912C2434CA7DDCA6E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48141660242F4D0FA2561BAD /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -84,7 +83,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCF849A11834BD9B00B5B5DC /* SenTestingKit.framework in Frameworks */,
 				BCF8499F1834BAAC00B5B5DC /* Security.framework in Frameworks */,
 				BCF8499D1834BA9D00B5B5DC /* CFNetwork.framework in Frameworks */,
 				BCF8499B1834BA8E00B5B5DC /* libicucore.dylib in Frameworks */,
