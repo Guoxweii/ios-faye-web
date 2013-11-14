@@ -1,0 +1,25 @@
+<%= content_for :head do %>
+<script type="text/javascript" src="http://127.0.0.1:9292/faye/client.js"></script>
+
+<script type="text/javascript">
+	var client = new Faye.Client('http://127.0.0.1:9292/faye', {
+		timeout: 120
+	});
+	
+	var subscription = client.subscribe('/foo', function(message) {
+		console.log(message);
+	});
+	
+	subscription.then(function() {
+		console.log('Subscription is now active!');
+	});
+	
+	client.publish("/foo", {text: "123"});
+</script>
+<% end -%>
+
+<div class="content">
+	
+</div>
+
+
