@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5B45EF38-53B3-419A-914B-2BC4EADAE18D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>faye-ios</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>08731FC2-F0D8-485B-89D3-2A3ADB3001DB</key>
+		<string>ssh://github.com/littleluren/ios-faye-web.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>faye-ios/faye-ios.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>08731FC2-F0D8-485B-89D3-2A3ADB3001DB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/littleluren/ios-faye-web.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>08731FC2-F0D8-485B-89D3-2A3ADB3001DB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>08731FC2-F0D8-485B-89D3-2A3ADB3001DB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-faye-web</string>
+		</dict>
+	</array>
+</dict>
+</plist>

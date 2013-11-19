@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EGORefreshTableHeaderView.h"
 
 @interface ViewController : UIViewController
 @property (strong, nonatomic) UILabel *label;

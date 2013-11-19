@@ -24,7 +24,7 @@
     view.backgroundColor=[UIColor cyanColor];
     self.view = view;
     
-    self.label = [[UILabel alloc] initWithFrame:CGRectMake(10, 10, 300, 200)];
+    self.label = [[UITextView alloc] initWithFrame:CGRectMake(10, 50, 300, 200)];
     [self.view addSubview:self.label];
     self.label.text = @"receving message.....";
     

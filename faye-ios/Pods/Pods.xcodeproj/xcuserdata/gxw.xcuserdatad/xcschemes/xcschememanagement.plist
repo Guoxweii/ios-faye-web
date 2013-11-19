@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-EGOTableViewPullRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-JSONKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>73F67E8130AF4A1A97500811</key>
+		<key>3A9C841B24374E2FA0C10B66</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B7E108D8B1A74DC691CA4565</key>
+		<key>E557C53D23A24A03A2573B5C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F83AEBC2069B428880B49179</key>
+		<key>E9F6D45350954A24BD9C5E37</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EA24891C821B4249B9A81BD4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
