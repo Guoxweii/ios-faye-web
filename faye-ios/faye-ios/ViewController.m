@@ -59,6 +59,9 @@
 - (void)disconnectedFromServer
 {
     NSLog(@"Disconnected from server");
+    _client = [[FayeClient alloc] initWithURLString:@"ws://localhost:9292/faye" channel:@"/foo"];
+    _client.delegate = self;
+    [_client connectToServer];
 }
 
 - (void)subscriptionFailedWithError:(NSString *)error
@@ -80,6 +83,9 @@
 - (void)connectionFailed
 {
     NSLog(@"Connection Failed");
+    _client = [[FayeClient alloc] initWithURLString:@"ws://localhost:9292/faye" channel:@"/foo"];
+    _client.delegate = self;
+    [_client connectToServer];
 }
 - (void)didSubscribeToChannel:(NSString *)channel
 {
